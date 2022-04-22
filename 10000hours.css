@@ -256,6 +256,11 @@ body{
         line-height: 14px;
         color: white;
     }
+
+    .for_mobile{
+        display: block;
+        margin-bottom: 17px;
+    }
     
     .do{
         width: 156px;
@@ -264,10 +269,6 @@ body{
         margin: 0 4px 17px 4px;
         font-size: 0.875rem;
         line-height: 15px;
-    }
-
-    .input_p::first-letter{
-        text-indent: 100px;
     }
     
     .need::placeholder{
@@ -280,28 +281,29 @@ body{
     .btn{
         background-color: #FCEE21;
         font-family: 'GmarketSansBold';
-        font-size: 1.5rem;
-        line-height: 24px;
+        font-size: 0.875rem;
+        line-height: 16px;
         color: #5B2386;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-        border-radius: 56px;
-        padding: 21px 49px;
-        margin: 88px 0 0 0;
+        border-radius: 13px;
+        padding: 19px 36.5px 17px 36.5px;
+        margin: 32px 0 0 0;
         cursor: pointer;
+        width: 241px;
     }
     
     .pointer{
-        width: 64px;
-        height: 72px;
-        margin-top: 102px;
+        width: 43px;
+        height: 48px;
+        margin: 90px 0 0 6px;
         position: absolute;
     }
     
     .result_area{
         font-family: 'GmarketSansMedium';
         color: #FFFFFF;
-        font-size: 1.5rem;
-        line-height: 24px;
+        font-size: 0.875rem;
+        line-height: 14px;
         vertical-align: middle;
         display: none;
     }
@@ -309,41 +311,49 @@ body{
     .result{
         display: inline-block;
         font-family: 'GmarketSansBold';
-        font-size: 4.5rem;
-        line-height: 72px;
+        font-size: 1.5rem;
+        line-height: 24px;
         color: #FFFFFF;
         vertical-align: middle;
-        margin: 8.5px 12px 8.5px 12px;
+        margin: 7.5px 8px 7.5px 8px;
     }
     
     .go{
         margin-bottom: 0;
         display: none;
+        border-radius: 56px;
+        width: 186px;
+        padding: 13.5px 16.5px 12.5px 16.5px;
+        line-height: 14px;
     }
     
     .share{
-        margin: 127px 0 0 18px;
+        margin: 47px 0 0 18px;
         background-color: white;
         display: none;
+        border-radius: 56px;
+        width: 92px;
+        padding: 13.5px 19px 12.5px 19px;
+        line-height: 14px;
     }
     
     .logo{
-        width: 125px;
-        height: 25px;
-        margin: 80px 0 20px 0;
+        width: 91px;
+        height: 18px;
+        margin: 83px 0 17px 0;
     }
     
     .copyright{
         font-family: 'Noto Sans KR';
-        font-size: 0.75rem;
-        line-height: 17px;
+        font-size: 0.5625rem;
+        line-height: 13px;
         color: white;
-        margin-bottom: 70px;
+        margin-bottom: 32px;
     }
     
     .modal{
-        padding-top: 76px;
-        width: 800px;
+        padding-top: 40px;
+        width: 330px;
         background: #FFFFFF;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
         border-radius: 30px;
@@ -360,23 +370,30 @@ body{
         font-weight: 700;
         font-size: 2.25rem;
         line-height: 40px;
+        margin-top: -4px;
     }
     
     .fighting{
         display: inline-block;
-        margin-top: 4px;
         font-weight: 700;
-        font-size: 6rem;
-        line-height: 106px;
+        font-size: 4rem;
+        line-height: 70px;
+        margin-top: 0px;
+    }
+
+    .only_web{
+        display: none;
     }
     
     .licat{
-        width: 443px;
-        height: 337px;
-        margin-top: 29px;
+        display: none;
     }
     
     .close{
-        margin: 74px 0 68px 0;
-    }    
+        margin: 246px 0 40px 0;
+    }
+
+    .modal_mobile{
+        display: block;
+    }
 }

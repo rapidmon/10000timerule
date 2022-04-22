@@ -16,13 +16,22 @@ $cal_btnEl.addEventListener("click", function(){
         let $timeEl = document.querySelector(".time")
         $timeEl.textContent = Math.ceil(10000 / parseInt($time_inputEl.value))
 
-        document.querySelector(".result_area").style.display = "block"
-        document.querySelector(".go").style.display = "inline-block"
-        document.querySelector(".share").style.display = "inline-block"
-        document.querySelector(".btn").style.margin = "88px 0 147px 0"
-        document.querySelector(".logo").style.margin = "130px 0 20px 0"
-        // $time_inputEl.setAttribute('disabled', "true")
-        // $what_inputEl.setAttribute('disabled', "true")     
+        let innerwidth = window.innerWidth
+        if(innerwidth>=900){
+            document.querySelector(".result_area").style.display = "block"
+            document.querySelector(".go").style.display = "inline-block"
+            document.querySelector(".share").style.display = "inline-block"
+            document.querySelector(".btn").style.margin = "88px 0 147px 0"
+            document.querySelector(".logo").style.margin = "130px 0 20px 0"
+            // $time_inputEl.setAttribute('disabled', "true")
+            // $what_inputEl.setAttribute('disabled', "true")  
+        }
+        else{
+            document.querySelector(".result_area").style.display = "block"
+            document.querySelector(".go").style.display = "inline-block"
+            document.querySelector(".share").style.display = "inline-block"
+            document.querySelector(".btn").style.margin = "32px 0 64px 0"
+        }
     }
 })
 
