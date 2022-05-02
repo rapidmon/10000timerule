@@ -2,8 +2,8 @@
 
 ## Homepage
 
-<img src="./img/basic" alt="homepage img"></img>
-<img src="./img/mobile" alt="mobile homepage img"></img>
+<img src="./img/basic.png" alt="homepage img"></img>
+<img src="./img/mobile.png" alt="mobile homepage img"></img>
 
 ## Repository Description
 
@@ -13,10 +13,10 @@
 
 공부 내용과 시간을 입력하고 버튼을 누르면 며칠이 걸릴 지 계산해줍니다. 계산 후 나오는 공유하기를 누르면 현재 페이지의 url을 복사하여 클립보드에 넣어줍니다.
 
-<img src="./img/basicdrive" alt="drive img"></img>
-<img src="./img/mobiledrive" alt="mobile drive img"></img>
+<img src="./img/basicdrive.png" alt="drive img"></img>
+<img src="./img/mobiledrive.png" alt="mobile drive img"></img>
 
 공유하러가기 버튼을 누르면 modal창을 띄워줍니다.
 
-<img src="./img/basicmodal" alt="modal img"></img>
-<img src="./img/mobilemodal" alt="mobile modal img"></img>
+<img src="./img/basicmodal.png" alt="modal img"></img>
+<img src="./img/mobilemodal.png" alt="mobile modal img"></img>
